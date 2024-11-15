@@ -1,0 +1,27 @@
+name: cook_book_app
+description: A Flutter app for managing recipes offline.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^7.0.0
+  flutter_bloc: ^8.0.0
+  sqflite: ^2.0.0
+  path_provider: ^2.0.0
+  image_picker: ^0.8.7
+provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
